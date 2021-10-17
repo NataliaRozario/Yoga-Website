@@ -1,0 +1,72 @@
+﻿*{
+margin: 0px;
+padding: 0px;
+}
+
+textarea{resize:none; /*trava a text area*/
+}
+
+body{background-color:#C1F0F4;}
+
+h1 {font-family: 'nunito'; /*logo*/
+font-size:55px;
+padding-left:20px;
+
+}
+
+h2{font-family: 'nunito'; /*páginas*/
+text-align: center;
+padding-bottom:23px;
+word-spacing:17px;
+}
+
+h3{font-family:'nunito'; /*texto e tabela*/
+text-align:left;
+font-size: 20px;
+padding-left:50px;
+padding-right:780px;
+padding-top:20px;
+padding-bottom:23px;
+}
+
+h4{font-family: 'nunito'; /*rodapé*/
+text-align: center;
+padding-top:17px;
+}
+
+h7{font-family:'nunito';
+font-size:33px;
+padding-left:800px;
+}
+
+/*menu*/
+ body{ font-family:'nunito'; }
+a{ text-decoration: none;}
+a:hover{ } 
+
+#all{
+width:700px;
+height:80px;
+line-height:80px; 
+margin:0 auto;
+}
+
+ul.menu{
+text-align:center; 
+}
+
+ul.menu li{
+display:inline-block; 
+margin:5px;
+}
+
+ul.menu li a{
+background-color:#F17A97;
+border-radius:6px; 
+padding:6px 10px;
+color: #fff;
+}
+
+ul.menu li a:hover{
+background-color:#6DDDF2;
+}

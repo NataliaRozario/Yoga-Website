@@ -1,0 +1,70 @@
+﻿<!doctype HTML>
+<html>
+	<head>
+		<title>Yoga | Contato</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="jpeg/png" href="img/lotus.png"/>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script language="javascript" type="text/javascript">
+			function validar() {
+			var nome = form1.nome.value;
+			var email = form1.email.value;
+			var recado = form1.recado.value;
+
+			if (nome == "") {
+			   alert('Coloque seu nome');
+			   form1.nome.focus();
+			return false;
+			}
+
+			if (email == "") {
+			   alert('Coloque seu e-mail');
+			   form1.email.focus();
+			return false;
+			}
+
+			if (recado == "") {
+				alert('Coloque sua mensagem');
+				form1.recado.focus();
+			return false;
+			}
+		}
+		</script> 
+	</head>
+	<body>
+		<div id="all">
+		<ul class="menu">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="origem.html">Origem</a></li>
+		<li><a href="sobre.html">Sobre</a></li>
+		<li><a href="beneficios.html">Benefícios</a></li>
+		<li><a href="pratica.html">Prática</a></li>
+		<li><a href="necessario.html">Material</a></li>
+		<li><a href="contato.html">Contato</a></li>
+		</ul>
+		</div>
+	
+		<h1><img src="img/lotusgrande.png" width="206" height="125">	Yoga | Contato</h1>
+		
+		<hr color="#000000">
+		<hr color="#000000">
+		
+		<h3>Alguma dúvida ou sugestão? Fale com a gente!<br><br>
+		
+		<form name="form1" action="enviado.html" method="post">
+				Primeiro nome:<br><input type="text" name="nome">
+				<br><br>
+				Email:<br><input type="text"  name="email">
+				<br><br>
+				Deixe sua mensagem:<br><textarea cols="40" rows="15" name="recado"></textarea><br>
+				<input type="reset"  name="limpa" value="Limpar">
+				<input type="submit" onclick="return validar()" name="envia" value="Enviar">
+				<br><br><br>
+			</form></h3>
+		
+		<hr color="#000000">
+		<hr color="#000000">
+		
+		<h4>Natalia Raissa &copy - Todos os direitos reservados</h4>
+	</body>
+</html>
