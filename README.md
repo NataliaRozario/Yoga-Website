@@ -1,2 +1,3 @@
-# Yoga-Website
-Site informativo sobre yoga desenvolvido num projeto escolar.
+# Yoga Website
+
+Informational website about yoga developed in a school project
