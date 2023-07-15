@@ -1,3 +1,3 @@
 # Yoga Website
 
-Informational website about yoga developed in a school project
+Informative website about yoga developed in a school project
